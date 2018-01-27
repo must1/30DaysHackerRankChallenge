@@ -23,15 +23,15 @@ public class Main {
         int max = 0;
         temp = 0;
         for (; 0 < l; l--) {
-            if (bin[l-1] == 0) {
+            if (bin[l - 1] == 0) {
 
-                if(temp>max)
+                if (temp > max)
                     temp = temp;
                 else
                     temp = max;
                 max = 0;
             }
-            if (bin[l-1] == 1)
+            if (bin[l - 1] == 1)
                 max++;
         }
         if (temp < max)
