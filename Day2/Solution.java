@@ -12,7 +12,7 @@ public class Solution {
         double tip = mealCost*tipPercent*0.01;
         double tax = mealCost*taxPercent*0.01;
 
-        
+
         double beforeTotalCost = mealCost+tip+tax;
 
         int totalCost = (int) Math.round(beforeTotalCost);
