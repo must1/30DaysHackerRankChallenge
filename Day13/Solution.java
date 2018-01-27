@@ -1,4 +1,4 @@
-package Day12;
+package Day13;
 
 import java.util.Scanner;
 import java.util.*;
@@ -16,8 +16,6 @@ abstract class Book {
 }
 
 class MyBook extends Book {
-    String title;
-    String author;
     int price;
 
     MyBook(String title, String author, int price) {
